@@ -69,7 +69,7 @@ public class Player implements InputProcessor {
     }
 
     public void move() {
-        world.setGravity(new Vector2(0, -pBody.getPosition().y * 15));
+        world.setGravity(new Vector2(0, -pBody.getPosition().y * 5));
         pBody.setLinearVelocity(fSpeed, pBody.getLinearVelocity().y);
     }
 
